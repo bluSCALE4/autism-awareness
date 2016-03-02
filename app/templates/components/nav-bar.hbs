@@ -1,7 +1,10 @@
-<nav>
+<div class="header">
+  <div class="logo">
+    {{#link-to "application"}}Autism{{/link-to}}
+  </div>
+  <div class="nav">
     <ul>
-        <li>Home</li>
-        <li>Cheat Sheets</li>
+      <li>{{#link-to "resources"}}Resources{{/link-to}}</li>
     </ul>
-</nav>
-{{yield}}
+  </div>
+</div>
